@@ -1,0 +1,266 @@
+/*
+&display=swap&subset=cyrillic-ext
+*/
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,700italic,&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap");
+
+@font-face {
+    font-family: 'Death to Metal';
+    src:url("../fonts/DeathtoMetal.woff2") format('woff2'),
+       url("../fonts/DeathtoMetal.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Death to Metal';
+    src:url("../fonts/DeathtoMetal.woff2") format('woff2'),
+       url("../fonts/DeathtoMetal.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	color: rgba(106, 106, 106, 1);
+	line-height: 1;
+	font-family: "Lato", sans-serif;
+}
+/*
+1  #00e6e6
+2 #01cccc
+3 #00bdbd
+	text-shadow: -4px 4px 0px#00bdbd,-8px 8px 0px #01cccc,-14px 14px 0px #00e6e6;
+	color:rgb(5, 110, 110);
+*/
+/*
+The end
+	color: rgb(233, 12, 12);
+	font-family: Death to Metal;
+	*/
+/* ------------------ */
+body{
+	padding: 20px;
+	
+}
+
+/* header start */
+.header {}
+.header__logo {
+	color: rgba(16, 55, 92, 1);
+	font-size: 24px;
+	line-height: 32px;
+	font-family: Playfair Display;
+	font-weight: 700;
+	text-align: left;
+
+}
+.header__menu {}
+.menu {}
+.menu__list {
+	text-align: center;
+}
+.menu__link {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 28px;
+}
+.menu__link span{
+	color:rgba(34, 40, 49, 1) ;
+}
+/* header end */
+
+
+
+/* introducing start */
+.introducing {}
+.introducing__header {}
+.introducing__title {
+	font-family: Lora;
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 67px;
+	text-align: left;
+	color: #10375C;
+}
+.introducing__title > span{
+	color:rgba(221, 44, 0, 1);
+}
+.introducing__info {
+	text-align: right;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+.introducing__find {
+	text-align: left;
+}
+.find-introducing {}
+.find-introducing__title {
+	font-family: Lora;
+	font-weight: 700;
+	font-size: 34px;
+
+	line-height: 44px;
+}
+.find-introducing__list{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+mark {
+	color: rgb(238, 58, 58);
+	word-spacing: 50px;
+}
+p.find-introducing__name{
+	color: red;
+}
+.find-introducing__title,
+.find-introducing__value {
+	color: #068bf8;
+}
+.introducing__pic {
+		text-align: center;
+}
+.introducing__image {
+}
+/* introducing end */
+
+
+/*
+ red, orange, yellow, green, cyan, blue, violet
+/* contant start */
+.contant {
+
+}
+.contant h2{
+	word-spacing: 40px;
+	text-shadow: -2px 2px 0px#00bdbd,-4px 4px 0px #01cccc,-6px 6px 0px #00e6e6;
+	color:rgb(5, 110, 110);
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 106px;
+	text-align: center;
+}
+.contant h3{
+	font-size: 56px;
+	line-height: 60px;
+	color: #202c2d;
+	background: #FFFFFF;
+	text-shadow: 0 1px #808d93,
+	1px 0 #cdd2d5,
+	1px 2px #808d93,
+	2px 1px #cdd2d5,
+	2px 3px #808d93,
+	3px 2px #cdd2d5,
+	3px 4px #808d93,
+	4px 3px #cdd2d5,
+	4px 5px #808d93,
+	5px 4px #cdd2d5,
+	5px 6px #808d93,
+	6px 5px #cdd2d5,
+	6px 7px #808d93,
+	7px 6px #cdd2d5,
+	7px 8px #808d93,
+	8px 7px #cdd2d5;
+}
+.contant h4{
+	line-height: 76px;
+	text-align: right;
+	font-size: 56px;
+	color: #000000;
+	text-shadow: 0 0 5px #FFF,
+	0 0 10px #FFF,
+	0 0 15px #FFF,
+	0 0 20px #49ff18,
+	0 0 30px #49FF18,
+	0 0 40px #49FF18,
+	0 0 55px #49FF18,
+	0 0 75px #49ff18;
+}
+.contant__one {
+	color: red;
+	font-style: italic;
+	letter-spacing: 5px;
+	text-indent: 20px;
+}
+.contant__two {
+	color: orange ;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.contant__three {
+	color: yellow ;
+	text-decoration: underline;
+}
+.contant__four {
+	color:green ;
+	text-decoration: line-through;
+}
+.contant__five {
+	color: cyan;
+}
+.contant__six {
+	color: blue;
+}
+.contant__seven {
+	color: violet;
+	text-shadow: -2px -2px 2px  rgb(209, 164, 209) ;
+}
+.contant__end{
+
+	font-family: Death to Metal;	
+	text-align: center;
+	font-size: 150px;
+	color: red;
+	letter-spacing: 15px;
+	line-height: 200px;
+	word-spacing: 25px;
+}
+/* contant end */
+
+
+
+/* footer start */
+.footer__find{
+	text-align: center;
+}
+.footer a {
+	letter-spacing: 40px;
+	
+}
+/* footer end */
